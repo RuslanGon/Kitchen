@@ -70,13 +70,86 @@ textarea {
   font-size: 128px;
   color: #819b57;
   text-align: center;
+  margin-top: 181px;
+  
 }
 
 .hero-span {
   color: #faf4ea;
-
 }
 
 .header {
   background-image: url(./images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Растягивает изображение, чтобы заполнить контейнер */
+  background-position: center; /* Центрирует изображение */
+  width: 100%; /* Занимает всю ширину контейнера */
+  max-width: 1440px; /* Ограничивает максимальную ширину */
+  height: 736px;
+  padding-top: 34px;
+  margin: 0 auto; /* Центрирует блок по горизонтали */
+}
+
+.logo {
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: #faf4ea;
+margin-right: 152px;
+cursor: pointer;
+}
+.nav {
+  display: flex;
+  gap: 64px;
+  margin-right: 152px;
+}
+
+.nav-link {
+font-size: 18px;
+text-align: center;
+color: #faf4ea;
+}
+
+.nav-link:hover {
+  color: #819b57;
+}
+
+.main-div {
+  margin-left: 103px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+font-weight: 600;
+font-size: 18px;
+color: #faf4ea;
+border: 2px solid #819b57;
+border-radius: 8px;
+padding: 16px 32px;
+width: 238px;
+height: 59px;
+background: #819b57;
+}
+
+.box-div {
+padding-top: 25px;
+height: 62px;
+backdrop-filter: blur(4px);
+background: #819b57;
+margin-top: -34px;
+
+}
+
+.box-list {
+  display: flex;
+justify-content: center;
+gap:160px ;
+}
+
+.box-text {
+  font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-size: 20px;
+color: #faf4ea;
 }

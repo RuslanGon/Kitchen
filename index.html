@@ -5,29 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/normalize.css ">
+    <link rel="stylesheet" href="/style.css">
     <title>Kitchen</title>
 </head>
 
 <body>
     <header class="header">
-        <a  target="_blank"><img src="./images/logo.svg" alt="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="#modern-bakery">Наші традиції</a></li>
-                <li><a href="#traditions">Шеф-кухарі</a></li>
-                <li><a href="#form">Формати</a></li>
-                <li><a href="#contact">Контакти</a></li>
-            </ul>
-        </nav>
-        <button type="button">Замовити дзвінок</button>
+        <div class="main-div">
+            <a class="logo" target="_blank"><img src="./images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav">
+                    <li><a class="nav-link" href="#modern-bakery">Наші традиції</a></li>
+                    <li><a class="nav-link" href="#traditions">Шеф-кухарі</a></li>
+                    <li><a class="nav-link" href="#form">Формати</a></li>
+                    <li><a class="nav-link" href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+            <button class="button" type="button">Замовити дзвінок</button>
+        </div>
+        <h1 class="hero-title">Сучасна <span class="hero-span">пекарня</span></h1>
     </header>
+    <div class="box-div">
+<ul class="box-list">
+    <li><p class="box-text">Великий попит на ринку </p></li>
+    <li><p class="box-text">Доступні за бюджетом формати</p></li>
+    <li><p class="box-text">Досвідчена управлінська команда</p></li>
+
+</ul>
+    </div>
     <main>
-        <section id="modern-bakery">
-            <h1 class="hero-title">Сучасна <span class="hero-span">пекарня</span></h1>
-        </section>
         <section id="">
-color: #31261a;
             <h2 class="section-title">Новий формат традицій</h2>
             <p>
                 <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
