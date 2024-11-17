@@ -2,7 +2,7 @@ body {
 
   color: #31261a;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
 
 }
 
@@ -58,21 +58,25 @@ textarea {
 
 
 
-  .section-title {
-    font-family: "Poppins", sans-serif;
-font-weight: 900;
-font-size: 64px;
-line-height: 1.3125;
-  } 
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.3125;
+}
 
-  .hero-title {
-    font-family: "Poppins", sans-serif;
-font-weight: 900;
-font-size: 128px;
-color: #819b57;
-  }
+.hero-title {
+  font-weight: 900;
+  font-size: 128px;
+  color: #819b57;
+  text-align: center;
+}
 
-  .hero-span {
-  color: #31261a;
+.hero-span {
+  color: #faf4ea;
 
-  }
+}
+
+.header {
+  background-image: url(./images/main.png);
+}
