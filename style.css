@@ -159,7 +159,6 @@ color: #faf4ea;
 .cotainer {
 width: 1205px;
 height: 100%;
-background-color: rgb(239, 250, 215);
 margin-left: 100px;
 margin-top: 96px;
 }
@@ -345,4 +344,48 @@ margin-bottom: 30px;
   color: white;
   font-weight: 400;
   font-size: 18px;
+}
+
+/* // */
+
+.contact {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-title {
+font-weight: 900;
+font-size: 64px;
+line-height: 1.3125;
+color: #31261a;
+margin-bottom: 16px;
+}
+
+.contact-div {
+  width: 605px;
+}
+
+.contact-text {
+  font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #465929;
+}
+
+.forma {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column; 
+  gap: 24px;
+  width: 605px;
+}
+
+.input {
+  border: 1px solid #a18268;
+  border-radius: 8px;
+  height: 55px;
+  font-weight: 400;
+font-size: 18px;
+color: #a18268;
+padding-left: 42px;
 }
