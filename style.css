@@ -250,6 +250,56 @@ margin-top: 96px;
 .traditions-span1 {
   font-weight: 400;
   font-size: 18px;
-
   color: #819b57;
+}
+
+.img-vlad {
+  display: block;
+  max-width: 100%; 
+  height: auto;
+  margin: 0 auto;
+  border-top-left-radius: 400px; 
+  border-top-right-radius: 400px; 
+}
+
+/* /// */
+
+.kitchen-title {
+font-weight: 900;
+font-size: 64px;
+line-height: 1.3125;
+color: #31261a;
+width: 520px;
+text-align: center;
+margin-left: 376px;
+margin-bottom: 80px;
+}
+
+.kitchen-list {
+  display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.kitchen-item {
+  display: flex;
+  width: 605px;
+}
+
+.div-li {
+  margin-left: 30px;
+}
+
+.li-title {
+
+font-weight: 600;
+font-size: 40px;
+color: #31261a;
+margin-bottom: 16px;
+}
+
+.li-text {
+font-size: 18px;
+color: #31261a;
+margin-bottom: 30px;
 }
