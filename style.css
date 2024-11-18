@@ -448,6 +448,7 @@ color: #465929;
   display: flex;
   padding-top: 32px;
   gap: 166px;
+  margin-right: 96px;
 }
 
 .footer-item {
