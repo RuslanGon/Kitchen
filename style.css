@@ -107,7 +107,7 @@ cursor: pointer;
 .nav-link {
 font-size: 18px;
 text-align: center;
-color: #faf4ea;
+color: white;
 }
 
 .nav-link:hover {
@@ -413,8 +413,50 @@ color: #465929;
   color: white;
   }
 
-  .contact-text1 {
-  margin-left: 132px;
-    width: 340px;
-    text-align: center;
-  }
+    .contact-text1 {
+      margin-left: 132px;
+      width: 340px;
+      text-align: center;
+    }
+
+    /* /// */
+.footer {
+  background-image: url(./images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 234px;
+  margin-top: 96px;
+}
+
+.cotainer-footer {
+   margin-left: 96px;
+  display: flex;
+  padding-top: 32px;
+  gap: 166px;
+}
+
+.footer-item {
+  margin-bottom: 16px;
+}
+
+.set {
+  display: flex;
+  gap: 22px;
+}
+
+.nav-link1 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a18268;
+}
+  
+  
+  
+  
+ 
+  
+
+  
+
+ 
