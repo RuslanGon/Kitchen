@@ -132,6 +132,11 @@ height: 59px;
 background: #819b57;
 }
 
+.button:hover {
+background-color:green;
+color: white;
+}
+
 .box-div {
 padding-top: 15px;
 height: 62px;
@@ -389,3 +394,27 @@ color: #465929;
   color: #a18268;
   padding-left: 42px;
 }
+
+.button-contact {
+  font-weight: 600;
+  font-size: 18px;
+  color: #faf4ea;
+  border: 2px solid #819b57;
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+  background: #819b57;
+  margin-left: 184px;
+  }
+  
+  .button-contact:hover {
+  background-color:green;
+  color: white;
+  }
+
+  .contact-text1 {
+  margin-left: 132px;
+    width: 340px;
+    text-align: center;
+  }
