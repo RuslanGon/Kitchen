@@ -290,16 +290,30 @@ color: #31261a;
 }
 
 /* Оформление навигационных кнопок */
-.swiper-button-next,
-.swiper-button-prev {
-  color: black;
-  border: 2px solid black;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute; /* Позиционирование кнопок */
-  top: 50%; /* Центрирование по вертикали */
-  transform: translateY(-50%); /* Центрирование по вертикали */
+.custom-prev,
+.custom-next {
+
+background-color: transparent;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.custom-prev {
+    left: -1px; /* Позиция слева */
+}
+
+.custom-next {
+    right: -1px; /* Позиция справа */
 }
 
 /* Отступы для навигационных кнопок */

@@ -15,7 +15,7 @@ const swiper = new Swiper('.swiper', {
   
     // Навигационные стрелки
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.custom-next',
+      prevEl: '.custom-prev',
     },
 });
