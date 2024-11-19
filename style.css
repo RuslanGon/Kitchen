@@ -472,7 +472,7 @@ color: #465929;
   left: 0;
   top: 0;
   position: fixed; 
-  display: flex;
+  display: none; 
   justify-content: center;
   align-items: center;
   background-color: rgba(175, 175, 175, 0.8); 
@@ -565,11 +565,11 @@ line-height: 1.46;
 text-align: center;
 color: #31261a;
   }
-
-  .modal-span {
-    text-decoration: underline;
-text-decoration-skip-ink: none;
-  }
+  
+.modal-span {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
   
  
   
