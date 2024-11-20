@@ -650,15 +650,21 @@ gap: 20px;
     width: 600px;
   }
 
-.footer {
-  height: 100%;
-}
+  .footer {
+    height: 100%;
+  }
 
-    .cotainer-footer {
-      gap: 16px;
-      flex-direction: column;
-      margin-left: 300px;
-    }
+  .cotainer-footer {
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 300px;
+  }
+
+
+
+
+  
+  
 }
 
   
