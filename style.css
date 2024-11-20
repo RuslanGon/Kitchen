@@ -137,6 +137,14 @@ background-color:green;
 color: white;
 }
 
+.mob-but {
+  background-color: transparent;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
 .box-div {
 padding-top: 15px;
 height: 62px;
@@ -571,8 +579,20 @@ color: #31261a;
   text-decoration-skip-ink: none;
 }
   
- 
-  
+/* /// */
+
+@media screen and (max-width: 1280px) {
+  .nav {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .mob-but {
+    display: block;
+    margin-left: 450px;
+  }
+}
 
   
 
