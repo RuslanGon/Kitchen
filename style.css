@@ -592,7 +592,7 @@ color: #31261a;
 
   .mob-but {
     display: block;
-    margin-left: 450px;
+    margin-left: 150px;
   }
 
   .hero-title {
@@ -605,9 +605,60 @@ color: #31261a;
   }
 
   .box-div {
+    margin-top: 1px;
+    border-radius: 24px;
+    width: 718px;
+    height: 243px;
+    background: #cfcfbc;
+  }
+
+  .box-list {
+gap: 20px;
+    flex-direction: column;
+  }
+
+  .traditions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .kitchen-title {
+    margin-left: 10px;
+  }
+
+  .img-vlad {
+    margin-left: 40px;
+  }
+
+  .form {
     display: none;
   }
 
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .map-img {
+    width: 600px;
+  }
+
+.footer {
+  height: 100%;
+}
+
+    .cotainer-footer {
+      gap: 16px;
+      flex-direction: column;
+      margin-left: 300px;
+    }
 }
 
   
