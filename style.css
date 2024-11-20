@@ -585,13 +585,29 @@ color: #31261a;
   .nav {
     display: none;
   }
+
   .button {
     display: none;
   }
+
   .mob-but {
     display: block;
     margin-left: 450px;
   }
+
+  .hero-title {
+    font-size: 67px;
+  
+  }
+
+  .hero-span {
+    font-size: 67px;
+  }
+
+  .box-div {
+    display: none;
+  }
+
 }
 
   
