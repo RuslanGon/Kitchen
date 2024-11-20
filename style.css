@@ -652,12 +652,22 @@ gap: 20px;
 
   .footer {
     height: 100%;
+    width: 100%;
   }
 
   .cotainer-footer {
     flex-direction: column;
     gap: 16px;
     margin-left: 300px;
+  }
+
+  .modal {
+    width: 500px;
+  }
+
+  .modal-input {
+    max-width: 300px;
+    font-size: 18px;
   }
 
 
